@@ -52,35 +52,12 @@
                         <barButtonItem key="backBarButtonItem" title="Back" id="9qU-ef-nIF"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="errorView" destination="c9T-d2-FXk" id="D9O-mp-7QA"/>
                         <outlet property="loadButton" destination="EmQ-Z5-rgI" id="edq-Ek-wdm"/>
                         <outlet property="loginText" destination="lbc-rs-QiE" id="cp6-yt-uds"/>
                         <segue destination="VGP-Wu-KSs" kind="show" identifier="Profile" id="iTE-gG-o35"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <view contentMode="scaleToFill" id="c9T-d2-FXk" userLabel="errorView">
-                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <subviews>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Error: This login doesn't exist" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="229-MM-GVQ">
-                            <rect key="frame" x="0.0" y="42" width="240" height="44"/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="44" id="L6Q-JJ-bAm"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                            <textInputTraits key="textInputTraits"/>
-                        </textField>
-                    </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstItem="229-MM-GVQ" firstAttribute="centerX" secondItem="c9T-d2-FXk" secondAttribute="centerX" id="AEh-LV-hkY"/>
-                        <constraint firstAttribute="trailing" secondItem="229-MM-GVQ" secondAttribute="trailing" id="EHm-yU-aLo"/>
-                        <constraint firstItem="229-MM-GVQ" firstAttribute="centerY" secondItem="c9T-d2-FXk" secondAttribute="centerY" id="nTj-U8-uJT"/>
-                        <constraint firstItem="229-MM-GVQ" firstAttribute="leading" secondItem="c9T-d2-FXk" secondAttribute="leading" id="xtK-Dy-Vnv"/>
-                    </constraints>
-                </view>
             </objects>
             <point key="canvasLocation" x="1137" y="257"/>
         </scene>
